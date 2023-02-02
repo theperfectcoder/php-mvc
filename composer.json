@@ -1,0 +1,20 @@
+{
+    "name": "theperfectcoder/php-mvc",
+    "authors": [
+        {
+            "name": "Sergey Grigoryan",
+            "email": "theperfectcodder@gmail.com"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^3.2",
+      "ext-pdo": "*",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "App\\": "src/app",
+          "Cloudy\\": "src/cloudyframework"
+        }
+    }
+}
